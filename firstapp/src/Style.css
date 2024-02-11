@@ -1,0 +1,273 @@
+.head {
+    width: 100%;
+    max-width: 1440px; /* Adjust maximum width */
+    height: 82px;
+    background-color: white;
+    padding: 16px 20px; /* Adjust padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #raw {
+    margin-left: 20px; 
+  }
+  
+  input[type=text] {
+    width: 60%; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 20px; 
+  }
+  
+  #btsb {
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px; 
+  }
+  
+  .onlynav {
+    background-color: #091431;
+    height: 50px;
+  }
+  
+  .footnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    color: white;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .footnav li {
+    line-height: 50px; 
+  }
+
+
+
+
+   
+  .mover {
+    width: 100%; 
+    max-width: 1440px; 
+    height: auto; 
+    margin: 0 auto; 
+    padding: 40px 0; 
+   
+  }
+  
+  .side {
+    width: 100%; 
+    max-width: 1000px; 
+    height: auto; 
+    margin: 0 auto; 
+    border-radius: 32px;
+    background-color: aliceblue;
+  }
+
+
+
+   /* ======card ========== */
+
+.decard {
+    max-width: 1440px; 
+    margin: 0 auto; 
+    padding: 40px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .chcard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .incard {
+    max-width: 860px; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 25px;
+  }
+  
+  .fourcard,
+  .fourcard2 {
+    max-width: 860px; 
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+  }
+  
+  /* Adjust individual card styles */
+  .fourcard .card,
+  .fourcard2 .card {
+    width: calc(25% - 10px); 
+  }
+  
+  /* Adjust card body height */
+  .card-body {
+    height: 150px; /* Set card body height */
+  }
+
+/* ========four card======= */
+.fourcard {
+    max-width: 1440px; 
+    margin: 0 auto; 
+    padding: 40px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 40px;
+  }
+  
+  .copa {
+    max-width: 860px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  /* Adjust individual card styles */
+  .fourcard .card {
+    width: 100%; /* Full width */
+    max-width: 200px; 
+  }
+  
+  /* Adjust card body styles */
+  .card-body {
+    text-align: center; 
+  }
+  
+  /* Adjust card image size */
+  .card-img-top {
+    height: 40px; 
+    width: 150px; 
+  }
+  
+  /* =========third card======== */
+  /* .dres{
+    width:1,440px;
+height:480px;
+top: 1702px;
+padding: 40px, 0px, 40px, 0px;
+gap: 40px;
+background: linear-gradient(180deg, rgba(218, 218, 218, 0.25) 0%, #DADADA 100%);
+;
+
+  }
+
+  .mess{
+    width:860px;
+height:324px;
+
+  }
+  .pess{
+    width:860px;
+height:90px;
+border: 0px, 0px, 1px, 0px;
+justify: space-between;
+
+  }
+  .less{
+    width:860px;
+height:234px;
+padding: 16px, 0px, 24px, 0px;
+border-radius: 0px, 0px, 16px, 16px;
+border: 1px, 0px, 0px, 0px;
+gap: 16px;
+background: linear-gradient(0deg, #EEEEEE, #EEEEEE),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border-top: 1px solid #EEEEEE
+
+
+  } */
+/* ======= Container ======= */
+.dress {
+    max-width: 1440px; /* Maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 40px 0; /* Adjust padding */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    gap: 40px; /* Add gap between sections */
+    background: linear-gradient(180deg, rgba(218, 218, 218, 0.25) 0%, #DADADA 100%);
+  }
+  
+  /* ======= Coupon By Categories Section ======= */
+  .mess {
+    max-width: 860px; /* Maximum width */
+    width: 100%; /* Full width */
+  }
+  
+  .pess, .less {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between; /* Evenly space items */
+    gap: 16px; /* Add gap between cards */
+  }
+  
+  /* ======= Coupon Categories Cards ======= */
+  .pess .card, .less .card {
+    flex: 1; /* Expand to fill available space */
+  }
+  
+  /* ======= Coupon Cards Section ======= */
+  .less {
+    padding: 16px 0 24px 0; /* Adjust padding */
+    border-radius: 0 0 16px 16px; /* Rounded bottom corners */
+    border-top: 1px solid #EEEEEE; /* Add top border */
+    background: linear-gradient(0deg, #EEEEEE, #EEEEEE),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  }
+
+  /* =======girl====== */
+/* .gite{
+    width:1,440px;
+height:260px;
+top: 2182px;
+padding: 24px, 0px, 24px, 0px;
+gap: 8px;
+
+}  
+.har{
+    width: 860px;
+height: 212px;
+border-radius: 16px;
+
+} */
+.gite {
+    width: 100%; /* Set width to 100% */
+    max-width: 1440px; /* Limit maximum width */
+    padding: 0px 0; /* Adjust padding */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .har {
+    width: 100%; /* Set width to 100% */
+    max-width: 860px; /* Limit maximum width */
+    height: auto; /* Auto-adjust height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  
+  
+  
+ 
