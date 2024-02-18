@@ -13,6 +13,7 @@ import Verycardfour from './components/Verycardfour';
 import Slidersecond from './components/Slidersecond';
 import Thirdcard from './components/Thirdcard';
 import Girl from './components/Girl';
+import Card from './components/Images/Card';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           
         </Routes>
       </Router>
+      <Card/>
     </div>
   );
 }
